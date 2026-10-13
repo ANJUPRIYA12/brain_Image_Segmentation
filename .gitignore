@@ -1,0 +1,46 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+_pycache_/
+*.py[cod]
+
+# Dataset files
+data/raw/
+data/processed/
+
+# Trained model weights
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated predictions and outputs
+outputs/
+runs/
+logs/
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter files (only if used later)
+.ipynb_checkpoints/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
